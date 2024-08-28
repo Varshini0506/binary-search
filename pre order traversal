@@ -69,7 +69,7 @@ void freeTree(TreeNode* root) {
     freeTree(root->left);
     freeTree(root->right);
     
-    // Free the current node
+    
     free(root);
 }
 
